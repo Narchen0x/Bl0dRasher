@@ -4,12 +4,12 @@ from discord.ext import commands
 from discord_webhook import DiscordWebhook, DiscordEmbed
 
 # Change the information
-token = "NzY5MjMwODcxMDEzNzUyODQz.X5MAEwDcCXwqYtjh6fTRuNomJ541eS8ww"
+token = "NzY5MjMwODcxMDEzNzUyODQz.X5MAEw.DcCXwqYtjh6uNomJ541eS8ww"
 prefix = "$"
 
 # If webhook is True when somebody attack a server get notification with user and server id
 webhook = True
-webhook_url = "https://discordapp.com/api/webhooks/780641361468719136/95kC-ZgYntSgxQ8SjDt6t_oKFc1DvX3xCBC5UuUG6TywQjkFTL-lZOj6ztDmnBnb8Tj"
+webhook_url = "https://discordapp.com/api/webhooks/78064136146871913/95kC-ZgYntSOgxQ8SjDt6t_oKFc1DvX3xCBC5UuUG6TywQjkFTL-lZOj6ztDmnBnb8Tj"
 # If i have this color "#DC143C" change # for 0x, result "0xDC143C"
 webhook_color = 0xb81c00
 # Only link
@@ -32,7 +32,7 @@ embed_link = "https://discord.gg/test"
 # Always URL Image
 embed_picture = "https://media.discordapp.net/attachments/777622927993864242/780586514043895858/photo_2020-11-23_08-57-51.jpg?width=429&height=429"
 
-# For get members with de new API
+# For get members with de new API.
 intents = discord.Intents.default()
 intents.members = True
 
@@ -162,7 +162,7 @@ async def all(ctx):
 @client.command()
 async def help_es(ctx):
     embed = discord.Embed(title="Ayuda", guild_icon=guild_icon, description="Lista de Comandos", color=0xb81c00)
-    embed.set_thumbnail(url=guild_icon)
+    embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/777622927993864242/780586514043895858/photo_2020-11-23_08-57-51.jpg")
     embed.add_field(name="$all", value="Hace todos los comandos a la vez.")
     embed.add_field(name="$delete", value="Borra todos los canales del servidor.")
     embed.add_field(name="$create", value="Crea muchos canales en el servidor.")
@@ -176,7 +176,7 @@ async def help_es(ctx):
 @client.command()
 async def help(ctx):
     embed = discord.Embed(title="Help", description="Command List", color=0xb81c00)
-    embed.set_thumbnail(url=guild_icon)
+    embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/777622927993864242/780586514043895858/photo_2020-11-23_08-57-51.jpg")
     embed.add_field(name="$all", value="It does all the commands at once.")
     embed.add_field(name="$delete", value="Deletes all channels from the server.")
     embed.add_field(name="$create", value="Create many channels on the server.")
