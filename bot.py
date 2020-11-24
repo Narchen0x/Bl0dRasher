@@ -4,12 +4,12 @@ from discord.ext import commands
 from discord_webhook import DiscordWebhook, DiscordEmbed
 
 # Change the information
-token = "NzY5MjMwODcxMDEzNzUyODQz.X5MAEw.GVCqjXsuVzixAeCuuTI5OUSEHaI"
+token = ""
 prefix = "$"
 
 # If webhook is True when somebody attack a server get notification with user and server id
 webhook = True
-webhook_url = "https://discordapp.com/api/webhooks/780641361468719136/95kC-ZgYntSOgxQ8SjDt6t_oKFc1DvX3xCBC5UuUG6TywQjkFTL-lZOj6ztDmnBnb8Tj"
+webhook_url = ""
 # If i have this color "#DC143C" change # for 0x, result "0xDC143C"
 webhook_color = 0xb81c00
 # Only link
