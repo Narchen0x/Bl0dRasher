@@ -15,7 +15,7 @@ In order for the bot to work correctly, (some things like the ban don't usually 
 
 <p><a href="https://discord.com/developers/applications/">Go to discord developers.</a> > Go to the bot you want to run. > Go to the "bot" section and activate these fields.</p>
 
-<img src="https://i.imgur.com/kj5DB6f.png" width=90%>
+<img src="https://i.imgur.com/kj5DB6f.png" width=70%>
 
 ## How to configure
 Edit the following lines of the file "blood.py"
