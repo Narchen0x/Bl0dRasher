@@ -95,18 +95,21 @@ async def on_ready():
 # Show users on database
 @client.command(pass_context=True)
 async def show(ctx, database=database):
-    from Resources.data import database
     if database == True:
-        user_id = ctx.author.id 
+        from Resources.data import database
+        user_id = ctx.author.id
         adminlist = open("Resources/List/adminlist.txt")
-        # username = f"{ctx.author.name}#{ctx.author.discriminator}"
+        admin = False
+        username = f"{ctx.author.name}#{ctx.author.discriminator}"
         whiteusers = adminlist.readlines()
-        for user in whiteusers:
-            if user_id == int(user):
+        for usern in whiteusers:
+            if int(user_id) == int(usern):
+                print(str(usern))
                 admin = True
                 break
             else:
-                admin = False
+                print(f"not user")
+                pass
         if admin == True:
             database.show()
             await ctx.send(file=discord.File("Resources/user_data.txt"))
@@ -114,7 +117,7 @@ async def show(ctx, database=database):
         elif admin == False:
             await ctx.send("``You do not have permissions on the bot``")
         else:
-            print("Error desconocido.")
+            print("Unknown Error.")
     else:
         await ctx.send("``Database is not configured.``")
 
