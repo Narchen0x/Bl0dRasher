@@ -1,5 +1,5 @@
 # Bl0dRasher
-Raid Bot for Discord (Destroy Servers)
+A Discord bot that completely destroys servers.
 
 ## Prerequisites
 * Python 3.x
@@ -9,6 +9,36 @@ To install the modules:
 ```
 pip3 install requirements.txt
 ```
+## Commands
+* **Delete:**
+  * Deletes all the channels in the server.
+* **Create:**
+  * Creates a lot of channels in the server.
+* **Dm:**
+  * Sends DM's to each user in the server.
+* **Change:**
+  * Changes the server icon and the name.
+* **Allahmode:**
+  * Gives Admin Permissions to the everyone role.
+* **Ban:**
+  * Ban's all the users in the server.
+* **All:**
+  * Executes all the commands at the same time.
+
+## Database Commands
+* **Register:**
+  * If the user has active the database of the bot, this command works for register, if you're not registered you're not be able to use the other commands.
+* **Check:**
+  * Checks if the user has active the database of the bot, this command checks if the user is registered. (Only works if you're registered)
+* **Show:**
+  * This command works to check the registered users in the bot. (Only works if you're registered)
+* **Banlist:**
+  * This command works to ban some user in the database of the bot. (Only works for Bot Administrators)
+* **Unban:**
+  * This command works for unban some user in the database of the bot. (Only works for Bot Administrators)
+
+
+
 ## Enable Privileged Gateway Intents
 In order for the bot to work correctly, (some things like the ban don't usually work if you don't do this) you must activate the following fields, which are a novelty for the discord api.
 
