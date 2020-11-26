@@ -78,7 +78,7 @@ message_dm = "A server where you were was fucked up by Blood Moon."
 ```
 ## Commands
 
-**To see the commands from the bot use the command called help. For Spanish-speaking users there is also a command called help_es**
+**To see the commands from the bot use the command called help. For Spanish-speaking users there is also a command called help_es.**
 
 
 * **Delete:**
