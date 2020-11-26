@@ -77,6 +77,10 @@ embed_picturedm = "https://media.discordapp.net/attachments/777622927993864242/7
 message_dm = "A server where you were was fucked up by Blood Moon."
 ```
 ## Commands
+
+**To see the commands from the bot use the command called help. For Spanish-speaking users there is also a command called help_es**
+
+
 * **Delete:**
   * Deletes all the channels in the server.
 * **Create:**
@@ -103,6 +107,3 @@ message_dm = "A server where you were was fucked up by Blood Moon."
   * This command works to ban some user in the database of the bot. (Only works for Bot Administrators)
 * **Unban:**
   * This command works for unban some user in the database of the bot. (Only works for Bot Administrators)
-
-
-**To see the commands from the bot use the command called help. For Spanish-speaking users there is also a command called help_es**
