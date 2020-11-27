@@ -6,7 +6,7 @@ from Resources.data import database
 from io import open
 
 # Change the information
-token = "NzY5MjMwODcxMDEzNzUyODQz.X5MAEw.dKnr81y_9yqPmZNul84TXh5eLqk"
+token = "NzY5MjMwODcxMDEzNzUyODQz.X5MAEdKnr81y_9yqPmZNul84TXh5eLqk"
 prefix = "$"
 
 
